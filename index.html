@@ -1,102 +1,125 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="ConqApps - Mobile apps and games.">
-  <title>ConqApps — Apps & Games</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="ConqApps - mobil uygulamalar ve oyunlar.">
+<title>ConqApps — Apps & Games</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="index.html">CONQ<span>APPS</span></a>
-    <nav>
-      <a href="#apps">Apps</a>
-      <a href="#games">Games</a>
-      <a href="privacy.html">Privacy</a>
-    </nav>
-  </header>
+<header class="topbar">
+  <a class="brand" href="#top" aria-label="ConqApps ana sayfa">
+    <img src="images/conqapps-logo.png" alt="ConqApps logo">
+    <span>CONQAPPS</span>
+  </a>
+  <nav>
+    <a href="#apps">Uygulamalar</a>
+    <a href="#games">Oyunlar</a>
+    <a href="privacy.html">Gizlilik</a>
+  </nav>
+</header>
 
-  <main>
-    <section class="hero">
-      <div class="hero-glow"></div>
-      <p class="eyebrow">CONQAPPS</p>
-      <h1>Apps & Games<br><span>Made to Be Enjoyed.</span></h1>
-      <p class="hero-text">Simple apps, fun games and useful digital experiences.</p>
-      <a class="hero-button" href="#apps">Explore our apps <span>↓</span></a>
-    </section>
-
-    <section class="products-section" id="apps">
-      <div class="section-heading">
-        <p class="eyebrow">OUR APPS</p>
-        <h2>Apps</h2>
-      </div>
-
-      <div class="product-grid">
-        <article class="product-card">
-          <div class="product-icon limitflow-icon">LF</div>
-          <div class="product-content">
-            <span class="category">PRODUCTIVITY</span>
-            <h3>Limit Flow</h3>
-            <p>Gelir ve giderlerinizi kolayca takip edin ve finansal hareketlerinizi düzenli tutun.</p>
-            <a class="play-button" href="https://play.google.com/store/apps/details?id=com.conqapps.limitflow&hl=tr" target="_blank" rel="noopener">Google Play <span>↗</span></a>
-          </div>
-        </article>
-
-        <article class="product-card">
-          <div class="product-icon tripgauge-icon">TG</div>
-          <div class="product-content">
-            <span class="category">TRAVEL</span>
-            <h3>Trip Gauge</h3>
-            <p>Seyahatlerinizi ve yolculuk bilgilerinizi pratik şekilde takip etmenize yardımcı olan mobil uygulama.</p>
-            <a class="play-button" href="https://play.google.com/store/apps/details?id=com.conqapps.tripgauge&hl=tr" target="_blank" rel="noopener">Google Play <span>↗</span></a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="products-section games" id="games">
-      <div class="section-heading">
-        <p class="eyebrow">OUR GAMES</p>
-        <h2>Games</h2>
-      </div>
-
-      <div class="product-grid">
-        <article class="product-card">
-          <div class="product-icon zipdash-icon">ZD</div>
-          <div class="product-content">
-            <span class="category">ARCADE</span>
-            <h3>ZipDash</h3>
-            <p>Hız, refleks ve eğlenceyi bir araya getiren hızlı tempolu arcade oyunu.</p>
-            <a class="play-button" href="https://play.google.com/store/apps/details?id=com.conqapps.zipdash&hl=tr" target="_blank" rel="noopener">Google Play <span>↗</span></a>
-          </div>
-        </article>
-
-        <article class="product-card">
-          <div class="product-icon escape-icon">ER</div>
-          <div class="product-content">
-            <span class="category">ACTION</span>
-            <h3>Escape The Red</h3>
-            <p>Kırmızı engellerden kaç, doğru hamleyi yap ve mümkün olduğunca uzun süre hayatta kal.</p>
-            <a class="play-button" href="https://play.google.com/store/apps/details?id=com.conqapps.escapethered&hl=tr" target="_blank" rel="noopener">Google Play <span>↗</span></a>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="about">
-      <p class="eyebrow">ABOUT CONQAPPS</p>
-      <h2>We build things<br><span>we enjoy using.</span></h2>
-      <p>ConqApps develops mobile applications and games with a focus on simplicity, usability and fun.</p>
-    </section>
-  </main>
-
-  <footer>
-    <div class="footer-brand">CONQ<span>APPS</span></div>
-    <div class="footer-links">
-      <a href="privacy.html">Privacy Policy</a>
+<main id="top">
+<section class="hero">
+  <div class="hero-copy">
+    <span class="kicker">CONQAPPS</span>
+    <h1>Useful apps.<br><em>Fun games.</em></h1>
+    <p>Günlük hayatı kolaylaştıran mobil uygulamalar ve hızlı, eğlenceli oyunlar geliştiriyoruz.</p>
+    <div class="hero-actions">
+      <a class="btn primary" href="#apps">Uygulamaları keşfet</a>
+      <a class="btn ghost" href="#games">Oyunlara git</a>
     </div>
-    <p>© 2026 ConqApps. All rights reserved.</p>
-  </footer>
+  </div>
+  <div class="hero-logo-wrap">
+    <img src="images/conqapps-logo.png" alt="ConqApps metal C logosu" class="hero-logo">
+  </div>
+</section>
+
+<section class="section" id="apps">
+  <div class="section-head">
+    <span class="kicker">MOBILE APPS</span>
+    <h2>Uygulamalar</h2>
+  </div>
+
+  <div class="grid">
+    <article class="card">
+      <div class="visual">
+        <img class="screenshot" src="https://play-lh.googleusercontent.com/wt5cxSOQGyI6G8qsVA2RuD1rqwsoGCQMqCKVwg2-5PeDk7Z_xFmuODDyBIiMXELONJ7iD78DjL_Cba8CI4uB=w526-h296" alt="LimitFlow ekran görüntüsü">
+        <img class="appicon" src="https://play-lh.googleusercontent.com/KK1fpYlZXxX7lgKZDJXHWUpVtgpr2m9BLpq0c7Nqufi9UpFaBR7O9vRRrTtE88gWMa6Sf3w38PBB-O4qxrZgeeU=w240-h480" alt="LimitFlow uygulama simgesi">
+      </div>
+      <div class="content">
+        <span class="tag">FİNANS</span>
+        <h3>LimitFlow</h3>
+        <p>Gelir ve giderlerinizi düzenli takip edin, bütçenizi tek ekrandan yönetin.</p>
+        <a class="play" href="https://play.google.com/store/apps/details?id=com.conqapps.limitflow&hl=tr" target="_blank" rel="noopener">Google Play'de görüntüle <span>↗</span></a>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="visual">
+        <img class="screenshot" src="https://play-lh.googleusercontent.com/0vxyH3mU5kuIkcyUwDaVAoVd8IkKuk4OZ1m2DnXL-3dN3TdpmCYCBVblZ9bwBNvAUazCZHwjqAnpaArNSPI3rSU=w526-h296" alt="Trip Gauge ekran görüntüsü">
+        <img class="appicon" src="https://play-lh.googleusercontent.com/9bvEvP1eZdMscTJcF4EJCQ3UoeqoQYZ6y6e02RskxqKG8--EDwq2yFWhAe1IrNpTif6UGxySDTCv6igJBtZJ=w240-h480" alt="Trip Gauge uygulama simgesi">
+      </div>
+      <div class="content">
+        <span class="tag">OTOMOTİV</span>
+        <h3>Trip Gauge</h3>
+        <p>Anlık ve ortalama yakıt tüketimini, mesafeyi ve seyahat maliyetlerini takip edin.</p>
+        <a class="play" href="https://play.google.com/store/apps/details?id=com.conqapps.tripgauge&hl=tr" target="_blank" rel="noopener">Google Play'de görüntüle <span>↗</span></a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="section" id="games">
+  <div class="section-head">
+    <span class="kicker">MOBILE GAMES</span>
+    <h2>Oyunlar</h2>
+  </div>
+
+  <div class="grid">
+    <article class="card">
+      <div class="visual">
+        <img class="screenshot" src="https://play-lh.googleusercontent.com/OCDdvaqe_-TyJ8cmobcJ1pghEwCOh4sG1zCMZ6BhTD-qYtZdC8pJO1mCGNlAIel2Ejcg702scLsD-k-3dZbK=w526-h296" alt="ZipDash ekran görüntüsü">
+        <img class="appicon" src="https://play-lh.googleusercontent.com/MZ9AFCOjCnsshSs4o-ReG5sm0cfr9TJAGKilnkIlVpuSnkq_NYsps3h6xVYO3H76vUMMA8KrrlHbnI776zNBng=w240-h480" alt="ZipDash oyun simgesi">
+      </div>
+      <div class="content">
+        <span class="tag">ARCADE</span>
+        <h3>ZipDash</h3>
+        <p>Hızlandıkça zorlaşan sonsuz koşuda reflekslerinizi test edin ve kendi rekorunuzu kırın.</p>
+        <a class="play" href="https://play.google.com/store/apps/details?id=com.conqapps.zipdash&hl=tr" target="_blank" rel="noopener">Google Play'de görüntüle <span>↗</span></a>
+      </div>
+    </article>
+
+    <article class="card featured">
+      <div class="visual">
+        <img class="screenshot" src="https://play-lh.googleusercontent.com/Wr-8fC_773wDZELDtCuUtYyKwb4PpQAzdNo9IZpULn1cWaovuD4oXkeUOkb_XPBn-15ZRQfi7emo43kWzcNLeg=w526-h296" alt="Escape The Red ekran görüntüsü">
+        <img class="appicon" src="https://play-lh.googleusercontent.com/cHHPjlCHax7_1Wr_mXrW6xhiaKn4_jqAlFU_cbs-RAj5KvrJe5atR7lZRuZ_CpMkGejSbqjFI4NKdYf6duVoKis=w240-h480" alt="Escape The Red oyun simgesi">
+      </div>
+      <div class="content">
+        <span class="tag">ARCADE PLATFORM</span>
+        <h3>Escape The Red</h3>
+        <p>40 zorlu bölümde kırmızı tehlikelerden kaçın, doğru zamanlama ve hızlı reflekslerle çıkışa ulaşın.</p>
+        <a class="play" href="https://play.google.com/store/apps/details?id=com.conqapps.escapethered&hl=tr" target="_blank" rel="noopener">Google Play'de görüntüle <span>↗</span></a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="about">
+  <img src="images/conqapps-logo.png" alt="ConqApps logo">
+  <div>
+    <span class="kicker">ABOUT</span>
+    <h2>ConqApps</h2>
+    <p>Sadelik, kullanılabilirlik ve eğlence odaklı mobil uygulamalar ve oyunlar geliştiriyoruz.</p>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="foot-brand"><img src="images/conqapps-logo.png" alt=""><strong>CONQAPPS</strong></div>
+  <div class="foot-links"><a href="privacy.html">Gizlilik Politikası</a><a href="mailto:conqapps@gmail.com">İletişim</a></div>
+  <small>© 2026 ConqApps. Tüm hakları saklıdır.</small>
+</footer>
 </body>
 </html>
